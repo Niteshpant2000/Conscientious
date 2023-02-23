@@ -1,0 +1,239 @@
+/*body{
+    background-image:url("https://stories.uq.edu.au/contact-magazine/2021/how-online-mindfulness-training-can-help-students-during-pandemic/assets/7WlpkD4XLQ/uq-mindfulness-research-art-1-2560x1440.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 0px 0px 0px; 
+    padding: 0px 0px 0px 0px; 
+    width:100%;
+    height:100%;
+    
+}
+
+
+@keyframes textclip {
+    0% {color:#fff}
+    25% {color:rgb(2, 134, 6)}
+    50% {color:rgb(0, 255, 94)}
+    75% {color:rgb(64, 189, 108) }
+    100%{color:rgb(157, 250, 129)}
+}
+
+.flex-container {
+display: flex;
+height: 80px;
+color: #fff;
+font-size: 1.2rem;
+
+}
+h1{
+animation-name: textclip;
+animation-duration: 10s;
+animation-iteration-count:infinite;
+font-family:"Blippo";
+font-size: 70px;
+font-weight:bold;
+line-height: 48px;
+
+}
+#navImage{
+height:80px;
+width:80px;
+top:0;
+border-radius:40px;
+opacity:1;
+margin-top:10px;
+}
+.carouselContainer{
+display:flex;
+justify-content:center;
+align-items:left;
+top:0;
+left:0;
+}
+.carouselExampleControls{
+display:flex;
+justify-content: center;
+align-items: left;
+position: absolute;
+height: "300px";
+}
+p{
+text-align:center;
+}
+.carousel-inner{
+font-family:"lucida sans";
+font-style:oblique;
+font-weight:100;
+}
+.getStarted{
+height: 100%;
+position:relative;
+left:0;
+top:0;
+
+}
+#getStarted{
+color:aquamarine;
+}
+.getStartedContent{
+height:300px;
+justify-content: left;
+align-items: left;
+padding-left:10px;
+}
+#getStartedContent{
+padding-top:100px;
+font-family:"Bahnschrift SemiBold";
+font-style:bold;
+font-size:larger;
+text-align:left;
+}
+#buttonStart{
+padding-left:10px;
+align-items: left;
+}
+a{
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size:medium;
+font-weight:800;
+color:aqua;
+}
+.titleDiv{
+padding-left:500px;
+padding-top:20px;
+}
+.contentDiv{
+height:350px;
+margin-top:30px;
+}
+#contentCard{
+width:40%;
+height:max-content;
+
+
+}
+#contentCard2{
+margin-top:30px;
+width:40%;
+height:max-content;
+}
+.card-title{
+text-align:center;
+}
+.card{
+background-color:rgb(216, 228, 241);
+}
+.card-text{
+font-family:"new century";
+font-size:medium;
+}*/
+html {
+    scroll-behavior:smooth;
+  }
+
+#nav{
+    
+    height:80px;
+    position:fixed;
+    top:0;
+    width:100vh; 
+}
+#banner{
+    background-color: beige;
+    height:100vh;
+}
+#contentrow{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding-left:25%;
+}
+.col{
+    height: 500px;   
+    margin-top:80px;
+}
+#bannerContent1{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+#bannercol1{
+    height:650px;
+    background-image:url("./images/indexBanner.png");  
+    
+    background-repeat:no-repeat;
+}
+#banner2{
+    height: 100vh;
+}
+#bannerContent2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bannercol2{
+    display:flex;
+    padding:60px;
+    padding-top: 90px;  
+}
+#banner3{
+    background-color: beige;
+    height:100vh;
+}
+#bannercol3{
+    display:flex;
+    margin-left:320px;
+    padding-top:80px;
+}
+#bannerContent3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-28 {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 60%;
+    will-change: transform;
+  }
+  
+  .button-28:disabled {
+    pointer-events: none;
+  }
+  
+  .button-28:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .button-28:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+

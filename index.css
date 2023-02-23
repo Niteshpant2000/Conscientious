@@ -129,12 +129,13 @@ font-size:medium;
 }*/
 html {
     scroll-behavior:smooth;
+    font-family: Helvetica;
   }
 
 #nav{
     
     height:80px;
-    position:fixed;
+    position:absolute;
     top:0;
     width:100vh; 
 }
@@ -146,7 +147,7 @@ html {
     display:flex;
     justify-content: center;
     align-items:center;
-    padding-left:25%;
+    
 }
 .col{
     height: 500px;   
@@ -194,6 +195,7 @@ html {
 }
 
 .button-28 {
+  
     appearance: none;
     background-color: transparent;
     border: 2px solid #1A1A1A;
@@ -217,12 +219,13 @@ html {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    width: 60%;
+    width: 40%;
     will-change: transform;
   }
   
   .button-28:disabled {
     pointer-events: none;
+
   }
   
   .button-28:hover {
@@ -236,4 +239,26 @@ html {
     box-shadow: none;
     transform: translateY(0);
   }
-
+#navbarNavDropdown{
+    display: flex;
+    justify-content: end;
+    padding-left: 1000px;
+    
+  
+}
+#welcome{
+    text-align: center;
+}
+#title{
+    text-align:center;
+}
+p{
+    padding:10px;
+}
+#second{
+    text-align:center;
+}
+#secondbutton{
+    margin-left:67%;
+    width:60%;
+}

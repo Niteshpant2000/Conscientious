@@ -239,13 +239,7 @@ html {
     box-shadow: none;
     transform: translateY(0);
   }
-#navbarNavDropdown{
-    display: flex;
-    justify-content: end;
-    padding-left: 1000px;
-    
-  
-}
+
 #welcome{
     text-align: center;
 }

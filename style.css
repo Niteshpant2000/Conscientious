@@ -63,9 +63,7 @@ html {
     position:absolute;
     padding:100px;
 }
-.container-fluid{
-    margin-top:40px;
-}
+
 .card{
     margin:20px;
     border-style:solid;
@@ -87,6 +85,8 @@ html {
 }
 #banner2{
     height: 100vh;
+    background-color: aliceblue;
+    
 }
 #bannerContent2{
     display:flex;

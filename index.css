@@ -133,12 +133,14 @@ html {
   }
 
 #nav{
-    
+
     height:80px;
     position:absolute;
     top:0;
     width:100vh; 
+  
 }
+
 #banner{
     background-color: beige;
     height:100vh;

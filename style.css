@@ -118,3 +118,14 @@ html {
 .bg-white{
     margin-top:140px;
 }
+
+#contact{
+    right:0;
+    justify-content: left;
+    height:300px;
+}
+#newsletter{
+    left:0;
+    justify-content:right;
+    height:300px;
+}

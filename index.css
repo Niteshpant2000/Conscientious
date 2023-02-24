@@ -249,6 +249,10 @@ html {
 #welcome{
     text-align: center;
 }
+#welcome1{
+    text-align: left;
+    padding-left: 30px;
+}
 #title{
     text-align:center;
 }
@@ -258,7 +262,14 @@ p{
 #second{
     text-align:center;
 }
+#second1{
+    text-align:left;
+    margin-top: 20px;
+}
 #secondbutton{
     margin-left:67%;
     width:60%;
+}
+.bg-white{
+    margin-top:140px;
 }

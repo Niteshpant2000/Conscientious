@@ -39,7 +39,7 @@ h1{
 
 
 }*/
-h6 {
+#subtitle {
     text-align:center;
     padding-left:420px;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
